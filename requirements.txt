@@ -8,3 +8,5 @@ ascii_graph
 daphne
 trio
 uvicorn
+fastapi
+python-multipart

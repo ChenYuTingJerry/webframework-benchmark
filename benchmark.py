@@ -33,6 +33,7 @@ SERVERS = {
     ),
     'quart-uvicorn': Server('quart_server', ServerType.uvicorn, []),
     "sanic": Server("sanic_server", ServerType.direct, []),
+    'fastapi-uvicorn': Server('fastapi_server', ServerType.uvicorn, []),
 }
 
 REQUESTS_SECOND_RE = re.compile(
